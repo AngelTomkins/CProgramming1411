@@ -13,7 +13,7 @@ int main (void)
     // unsigned short contains all potential course numbers 0 to 9999
     unsigned short course_num;
     // int contains all potential student ids 0 to 9999999
-    unsigned int student_id;
+    float student_id;
 
     // scanf does not have error checking therefore the user could input
     // a non integer value, which can lead to undefined behaviour.

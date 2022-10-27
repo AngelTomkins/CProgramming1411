@@ -63,7 +63,7 @@ void square(void)
 {
     // Unsigned variable input since squares cannot have negative side lengths
     printf("\nEnter side length of a square in cm: ");
-    unsigned int s;
+    unsigned long s;
     scanf("%u", &s);
     printf("Perimiter of square: %u cm\nArea of square: %u cm^2\n", s*4, s*s);
     return;
@@ -89,8 +89,8 @@ void rectangle(void)
 void circle(void)
 {
     printf("Enter radius of circle in cm: ");
-    float r;
-    scanf("%f", &r);
+    unsigned int r;
+    scanf("%lu", &r);
 
     // Formulas used: P = 2πr, A = πr^2
     printf("Perimeter of Circle: %f cm"
